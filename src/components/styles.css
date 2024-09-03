@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(245, 245, 245, 0.784);
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: rgba(17, 89, 203, 0.819);
+  overflow: hidden;
+  min-height: 100px;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.topnav {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.navLink {
+  align-items: end;
+  text-decoration: none;
+  color: #fff;
+}
+.navLink {
+  margin: 2rem;
+}
+
+.navBrand {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 120px;
+  letter-spacing: 0.1cm;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.home,
+.about {
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.intro,
+.abt {
+  text-align: center;
+
+  font-size: large;
+  line-height: 1.8rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.loginForm {
+  margin-inline: auto;
+}
+
+.form-label {
+  width: 100px;
+  display: inline-block;
+}
+.form-input-text {
+  width: 270px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 26px;
+  /* border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(17, 89, 203, 0.819); */
+}
+
+.buttons {
+  margin-top: 26px;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+}
+
+.btn,
+.logout {
+  width: 100px;
+  height: 40px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  margin-right: 70px;
+  margin-top: 30px;
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(17, 89, 203, 0.819);
+  cursor: pointer;
+}
+
+.mainLine {
+  font-size: 25px;
+}
+
+.message {
+  display: block;
+  margin-left: 100px;
+  color: rgba(255, 0, 0, 0.733);
+}
+
+table,
+thead,
+tr,
+th,
+td,
+tbody {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 17px;
+  width: 100%;
+  max-width: 400px;
+  height: 30px;
+  padding: 10px;
+}
+
+.dataTable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+  color: rgba(17, 89, 203, 0.819);
+  font-size: 35px;
+}
+
+.toHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 70px;
+}
